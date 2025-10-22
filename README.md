@@ -1,6 +1,6 @@
 # Auto Dashboard with Grafana Foundation SDK
 
-This project generates a Grafana dashboard JSON mirroring the provided CPU dashboard using the Grafana Foundation SDK for Java.
+This project generates a Grafana dashboard JSON using the Grafana Foundation SDK for Java.
 
 ## Generate the dashboard
 
@@ -12,6 +12,7 @@ gradle run
 ```
 
 The JSON will be written to `json-dashboards/cpu_usage_dashboard.json`.
+Additionally, a region-based dashboard JSON will be written to `json-dashboards/cpu_usage_by_region_dashboard.json`.
 
 ## Import into Grafana
 - Grafana > Dashboards > New > Import
